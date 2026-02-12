@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.stepper {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stepper-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 2.5rem;
+  align-items: center;
+}
+
+.step-number {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+}
+
+.step-line {
+  height: 2.5rem;
+  width: 2px;
+  background-color: black;
+  position: absolute;
+  top: 2rem;
+}
+.active {
+  background-color: blue;
+}
