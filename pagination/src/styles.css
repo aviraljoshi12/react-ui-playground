@@ -1,0 +1,35 @@
+.post-container {
+  width: 550px;
+  height: 150px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+img {
+  width: 100px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.pagination-container {
+  display: flex;
+  width: 550px;
+  justify-content: space-evenly;
+}
+
+.page-btn {
+  background: black;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.active {
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.page-btn:hover {
+  transform: scale(0.8);
+}
